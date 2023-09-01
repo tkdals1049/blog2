@@ -1,0 +1,301 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #111111;
+	color: white;
+	font-family: "Lekton", monospace;
+	font-size: 15px;
+	font-display: auto;
+	overflow: hidden;
+}
+canvas {
+  z-index: 0;
+}
+
+#home-page{
+	position:fixed;
+	top:0px;
+	left:0px;
+    height: 100%;
+    width: 100%;
+
+	background-size: cover;
+	padding: 60px 120px 10px;
+	z-index: 2;
+}
+
+div.content {
+	display: none;
+}
+
+.progress {
+	background-color: white;
+	margin: 25% 0 0 0;
+}
+
+.progress .indeterminate {
+    background-color: #000000;
+}
+
+#blogname{
+	font-size:  1.5rem;
+	font-weight: bold;
+}
+
+#name{
+	font-weight: bold;
+	text-align: center;
+}
+
+.title{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+#name sub{
+	font-size: 50%;		
+	text-transform: lowercase;
+}
+
+#hello p,#summary p{
+	text-align: justify;
+}
+
+.row {
+	margin-bottom:0px;
+}
+
+#links img{	
+	position:fixed;
+	top:680px;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+ 
+#links .s2{
+	width: 16%;
+	margin: 2%;
+}
+
+#links .col.s2{
+	padding: 0;
+}
+
+#pics img {
+	height: 150px;
+	width: 225px;
+}
+#projects img {
+	height: 100%;
+	width: 100%;
+}
+
+.section{
+	padding-top: 0;
+	padding-bottom: 0.5rem;
+}
+
+.info{
+	height: 100%;
+}
+
+#pageb .tabs{
+	background: none;
+}
+
+
+.type.col.m4{
+	min-height: 200px;
+}
+
+.row.project,.row.education,.row.work{
+
+	padding: 2%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.tag{
+	font-style: italic;
+}
+
+.ps.ps--active-x > .ps__scrollbar-x-rail, .ps.ps--active-y > .ps__scrollbar-y-rail{
+	background: none;
+}
+
+.ps > .ps__scrollbar-y-rail > .ps__scrollbar-y{
+	background-color: rgba(255,255,255,255);
+}
+
+.tabs-content.carousel .carousel-item{
+	height: 100%;
+	overflow-y: scroll;
+}
+
+
+.tabs .tab a{
+	opacity: 1;
+}
+
+#skills .m2{
+	width: 16%;
+	margin: 1%;
+	padding: 2%;
+	border-radius: 50%;
+	font-size: 1.15rem;
+}
+
+.collapsible-header,.collapsible-body{
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+
+.collapsible{
+	border: none;
+	box-shadow: none;
+}
+
+
+#skills svg {
+	height: 100%;
+	width: 100%;
+}
+
+.education.col.s12, .work.col.s12{
+	margin: 1%;
+}
+
+
+object{
+	width: 16%;
+	margin: 1%;
+}
+
+#contact{
+	text-align: center;
+}
+
+#skills{
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+	text-align: center;
+}
+#skills::-webkit-scrollbar {
+display: none; /* Chrome, Safari, Opera*/
+}
+#hello{
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+#hello::-webkit-scrollbar {
+display: none; /* Chrome, Safari, Opera*/
+}
+#projects{
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+#projects::-webkit-scrollbar {
+display: none; /* Chrome, Safari, Opera*/
+}
+#experience{
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+#experience::-webkit-scrollbar {
+display: none; /* Chrome, Safari, Opera*/
+}
+
+#believe{
+	height: 10em;
+}
+#board{
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+#board::-webkit-scrollbar {
+display: none; /* Chrome, Safari, Opera*/
+}
+
+#skills svg path{
+	fill: rgba(255,255,255,1);
+}
+
+
+#image img{
+	width: 39.5%;
+	filter: none;
+	border: solid white 3px;
+	margin-left: 30.25%;
+	margin-right: 30.25%;
+}
+
+#links svg path{
+	fill: white;
+}
+
+#Says{
+	border-top: solid white 2px;
+	font-size: 1rem;
+	margin-top: 1%
+}
+
+.details{
+	text-align: justify;
+	padding-left: 2%;
+}
+
+a{
+	color: rgb(255, 153, 0);
+}
+.tabs .tab a.active {
+	color: white;
+	opacity: 1;
+}
+
+.tabs .tab a{
+	color: white;
+}
+
+.tabs .tab a:hover{
+	color: white;
+}
+
+.tabs .indicator{
+	background-color: white;
+}
+
+h6 {
+	font-size: 1.15rem;
+}
+
+
+.swal-button {
+	color: white;
+	background-color: #000000;
+	box-shadow: none !important;
+	text-align: justify;
+}
+
+button:focus {
+	color: white !important;
+	background-color: #000000 !important;
+}
+
+button:hover {
+	color: white !important;
+	background-color: #000000 !important;
+}
+
+.swal-button-container {
+	display: inline;
+}
